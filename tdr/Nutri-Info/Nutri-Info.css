@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFEDBD;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}   
+
+
+.navbar-ul {
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-li {
+    display: inline;
+    margin-left: 40px;
+    font-family: sans-serif;
+    display: flex;
+    list-style-type: none;
+    align-items: center
+  }
+
+.navbar-li a{
+    float: left;
+    color: #0e0e0d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar-li img{
+    width: 80px;
+    float: left;
+    text-align: center;
+}
+.navbar-li a:hover {
+    color: rgb(245, 11, 11);
+}
+
+
+.back-button {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px; 
+    border: none;
+    background: none; 
+    cursor: pointer; 
+  }
+
+.banner{
+    text-align: center;
+}
+
+.Macronutrients-container{
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
